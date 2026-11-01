@@ -1,0 +1,29 @@
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+research/.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+langagent/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
